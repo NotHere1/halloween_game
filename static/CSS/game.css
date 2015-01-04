@@ -1,0 +1,212 @@
+		html, body {
+			width: 100%;
+			background-color: black;
+			margin: 0px;
+		}
+		.game_container {
+			position: relative;
+			!height: 640px;
+			!width: 400px;
+			height: 500px;
+			width: 320px;
+			margin:0 auto;
+		}
+
+		#game_background {
+			height: 100%;
+			width: 100%;
+		}
+
+		#position1 {
+			position: absolute;
+			left: 60px;
+			top: 130px;
+			height: 77px;
+			width: 57px;	
+		}
+
+		#position2 {
+			position: absolute;
+			left: 60px;
+			top: 223px;
+			height: 77px;
+			width: 57px;	
+		}
+
+		#position3 {
+			position: absolute;
+			left: 60px;
+			top: 315px;
+			height: 77px;
+			width: 57px;	
+		}
+
+		#position4 {
+			position: absolute;
+			left: 132px;
+			top: 130px;
+			height: 77px;
+			width: 57px;	
+		}
+
+		#position5 {
+			position: absolute;
+			left: 132px;
+			top: 223px;
+			height: 77px;
+			width: 57px;	
+		}
+
+		#position6 {
+			position: absolute;
+			left: 132px;
+			top: 315px;
+			height: 77px;
+			width: 57px;	
+		}
+
+		#position7 {
+			position: absolute;
+			left: 203px;
+			top: 130px;
+			height: 77px;
+			width: 57px;	
+		}
+
+		#position8 {
+			position: absolute;
+			left: 203px;
+			top: 223px;
+			!height: 95px;
+			!width: 70px;
+			height: 77px;
+			width: 57px;	
+		}
+
+		#position9 {
+			position: absolute;
+			left: 203px;
+			top: 315px;
+			height: 77px;
+			width: 57px;	
+			/*background-color: grey;*/
+		}
+
+		.angel_demon_image_style {
+			background-color: orange;
+			position:absolute;
+			left: 0px;
+			top: 0px;
+			height: 100%;
+			width: 100%;
+			display: none;
+		}
+
+		#timer_area {
+			position: absolute;
+			background-color: orange;
+			height: 50px;
+			width: 110px;
+			left: 25px;
+			top: 10px;
+			font-size: 35px;
+			font-family: cursive;
+			margin: 0.1em;
+			text-align:center;
+		}
+
+		#score_area {
+			position: absolute;
+			background-color: orange;
+			height: 50px;
+			width: 110px;
+			right: 25px;
+			top: 10px;;
+			font-size: 35px;
+			font-family: cursive;
+			margin: 0.1em;
+			text-align:center;
+		}
+
+		.start_page {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			display: none;
+		}
+
+		.result_page {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			display: none;	
+		}
+
+		.share_page {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			z-index: 1;
+			display: none;	
+		}
+
+		#hit_result {
+			position: absolute;
+			top: 187px;
+			left: 110px;
+			height: 50px;
+			width: 35px;
+			text-align: center;
+		}
+
+		#rank_result {
+			position:absolute;
+			top: 187px;
+			left: 215px;
+			height: 50px;
+			width: 35px;
+			text-align: center;
+		}
+
+		#ts {
+			position:absolute;
+			bottom: 0px;
+			left: 0px;
+			font-size: 9px;
+		}
+
+		#ad {
+			font-size: 9px;
+			font-family: cursive;
+			font-style: oblique;
+			text-align: center;
+		}
+
+		.result_style {
+			font-family: cursive;
+			font-size: 20px;
+			font-style: italic;
+			font-weight: bold;
+		}
+
+		#test_position {
+			position:absolute;
+			top: 420px;
+			left: 100px;
+			height: 25px;
+			width: 125px;
+			background-color: red;
+			/*text-align: center;*/
+		}
+
+		#test_position2 {
+			position:absolute;
+			top: 383px;
+			left: 100px;
+			height: 25px;
+			width: 125px;
+			background-color: green;
+			/*text-align: center;*/
+		}
